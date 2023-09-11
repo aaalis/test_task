@@ -7,7 +7,14 @@
 - Аутентификация и авторизация не нужны.
 
 ## Запуск при наличие Docker и Docker-compose
-- a
+1. git clone https://github.com/aaalis/test_task
+2. cd test_task
+3. docker-compose up
+4. php -S localhost:8000
 
 ## Запуск без Docker
-- 
+1. git clone https://github.com/aaalis/test_task
+2. cd test_task
+3. запустить файл для заполнения базы данных - ./seed/seed.sql
+4. изменить данные для подключения в файле - database.php
+5. php -S localhost:8000
